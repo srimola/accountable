@@ -10,6 +10,13 @@
 
 [Flexbox](https://cssreference.io/flexbox/)
 
+## Goals
+
+  - Ultra-lightweight and performant
+    - Per-route code splitting, tree-shaking, lazy components, etc
+  - PWA
+  - Accessible
+
 ## Available Scripts
 
 In the project directory, you can run:
