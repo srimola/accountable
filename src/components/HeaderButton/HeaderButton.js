@@ -6,12 +6,11 @@ import SettingsButton from '../Buttons/SettingsButton';
 class HeaderButton extends Component {
   render() {
     return (
-      <div className="headerButton">
-        {this.props.type === 'settings' &&
-        <SettingsButton />}
-        {this.props.type === 'add' &&
+      <a className="headerButton" href={this.props.type}>
+        {this.props.type === 'settings' ?
+        <SettingsButton /> :
         <AddButton />}
-      </div>
+      </a>
     );
   }
 }
